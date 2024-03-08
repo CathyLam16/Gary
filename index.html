@@ -21,14 +21,16 @@
         <span id="span_dt_dt"></span>
     </p>
 </body>
-<!--  1946-03-08 -->
+<!--  生日显示器 -->
 <script type="text/javascript" src="time.js"></script>
 <!-- canvas动画 -->
 <script type="text/javascript" src="index.js"></script>
 <!-- 背景音乐 -->
-<audio controls autoplay>
-  <source src="happybirthday.mp3" type="audio/mp3">
-</audio>
+ <audio id="audio" height="100" width="100" style="opacity:0" preload="auto" controls hidden="true">
+    <source src="../assets/audio/happybirthday.mp3" type="audio/mpeg" />
+    <source src="../assets/audio/happybirthday.ogg" type="audio/ogg" />
+    <embed height="50" width="100" src="../assets/audio/happybirthday.mp3" />
+ </audio>
 <!-- copyright -->
 <footer style="color: #BBE1FA; text-align:center;">
     <font size="2" color=#BBE1FA>©2024 Happy birthday Gary &nbsp By Cathy Lam</font>
