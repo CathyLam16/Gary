@@ -3,7 +3,7 @@ var S = {
         S.Drawing.init('.canvas');
         document.body.classList.add('body--ready');
             //想说什么
-            S.UI.simulate("Bless|HappyBirthday!|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+            S.UI.simulate("Gary|HBD|#countdown 3|#rectangle 15x15|#circle 12 |#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -37,8 +37,8 @@ var S = {
                 requestFrame.call(window, this.loop.bind(this));
             },
             adjustCanvas: function () {
-                canvas.width = window.innerWidth - 30;
-                canvas.height = window.innerHeight - 100;
+                canvas.width = window.innerWidth - 100;
+                canvas.height = window.innerHeight - 30;
             },
             clearFrame: function () {
                 context.clearRect(0, 0, canvas.width, canvas.height);
