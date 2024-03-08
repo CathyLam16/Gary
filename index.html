@@ -20,28 +20,13 @@
         Gary has come to this world <br />
         <span id="span_dt_dt"></span>
     </p>
-    <!-- 自动播放 -->
-    <script type="text/javascript">
-    window.onload = function(){
-             setInterval("toggleSound()",1);
-        }
-    function toggleSound() {
-                var music = document.getElementById("happybirthday.mp3");//获取ID  
-                if (music.paused) { //判读是否播放  
-                    music.paused=false;
-                    music.play(); //没有就播放 
-                }    
-        }
-</script>
 </body>
 <!--  生日显示器 -->
 <script type="text/javascript" src="time.js"></script>
 <!-- canvas动画 -->
 <script type="text/javascript" src="index.js"></script>
 <!-- 背景音乐 -->
-<audio preload autoplay loop id="music">
-     <source src="/music/happybirthday.mp3" type="audio/mpeg">
-</audio>
+<video controls="" autoplay="" name="media"> <source src="happybirthday.mp3" type="audio/mpeg"></video>
 <!-- copyright -->
 <footer style="color: #BBE1FA; text-align:center;">
     <font size="2" color=#BBE1FA>©2024 Happy birthday Gary &nbsp By Cathy Lam</font>
