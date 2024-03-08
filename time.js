@@ -13,6 +13,6 @@ function BirthDay() {
         e_minsold = (e_hrsold - hrsold) * 60;
         minsold = Math.floor((e_hrsold - hrsold) * 60);
         seconds = Math.floor((e_minsold - minsold) * 60);
-        span_dt_dt.innerHTML = daysold + "days" + hrsold + "hours" + minsold + "minutes" + seconds + "seconds";
+        span_dt_dt.innerHTML = daysold + " days " + hrsold + " hours " + minsold + " minutes " + seconds + " seconds ";
     }
     BirthDay();
